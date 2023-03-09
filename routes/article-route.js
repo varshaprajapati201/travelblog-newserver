@@ -1,7 +1,7 @@
 const express = require("express");
 const {addArticle, getArticle, deleteArticle,getArticleById, getArticleToEdit, editArticle} = require("../controller/article-controller.js");
 
-const upload = require("../utils/upload.js")
+
 
 
 const ArticleRouter = express.Router();
